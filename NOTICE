@@ -1,0 +1,16 @@
+Vyges Shared Geometry (vyges-geom)
+Copyright 2026 Vyges. All Rights Reserved.
+
+This product is authored by Vyges (https://vyges.com) and licensed under the
+Apache License, Version 2.0 (the "License"). You may obtain a copy of the
+License in the accompanying LICENSE file or at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+vyges-geom is a std-only Rust crate providing axis-aligned rectangle geometry
+primitives and a uniform-grid spatial index (RegionIndex) for region / overlap /
+spacing-halo queries. It is the geometry substrate the Vyges layout-side tools
+(vyges-layout, and through it LVS device extraction, DRC, and the chip viewer)
+share; it is a linked library, not a user-facing tool.
+
+This is a clean-room implementation; no third-party EDA database is included.
