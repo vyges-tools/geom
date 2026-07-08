@@ -1,6 +1,6 @@
 [package]
 name = "vyges-geom"
-version = "0.1.10"
+version = "0.1.11"
 edition = "2021"
 description = "Shared layout geometry: axis-aligned rectangle primitives + a uniform-grid spatial index (RegionIndex) for region / overlap / spacing-halo queries. Std-only, the geometry substrate the Vyges layout-side engines share."
 license = "Apache-2.0"
