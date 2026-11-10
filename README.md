@@ -1,5 +1,7 @@
 # vyges-geom
 
+**[Download Loom](https://vyges.com/products/vyges-cli/#install)** · install the free [Vyges CLI](https://vyges.com/products/vyges-cli/), then `vyges install loom`
+
 **The shared layout-geometry substrate for the Vyges toolchain** — axis-aligned
 rectangle primitives and a uniform-grid **spatial index**, std-only.
 
